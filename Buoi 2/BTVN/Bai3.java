@@ -9,7 +9,7 @@ public class Bai3 {
                 max2 = max1;
                 max1 = x;
             }
-            else if (x < max1 && x > max2) max2 = x;
+            else if (x <= max1 && x >= max2) max2 = x;
         }
         System.out.print(max2 + " " + max1);
     }
